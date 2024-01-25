@@ -30,6 +30,8 @@ cpuminer_SOURCES = \
   algo/argon2d/argon2d/argon2d_thread.c \
   algo/argon2d/argon2d/encoding.c \
   algo/blake/sph_blake.c \
+  algo/aurum/aurum.c \
+  algo/aurum/aurum-gate.c \
   algo/blake/blake256-hash.c \
   algo/blake/blake512-hash.c \
   algo/blake/blake-gate.c \
@@ -275,7 +277,7 @@ cpuminer_SOURCES = \
   algo/yespower/yespower-opt.c \
   algo/yespower/yespower-ref.c \
   algo/yespower/yespower-blake2b-ref.c
-  
+
 disable_flags =
 
 if USE_ASM
